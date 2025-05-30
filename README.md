@@ -65,7 +65,7 @@ The result show that the experiment data align well with design split ratio (50/
 #### 3.3 Randomization Check
 We expect that user characteristics are balanced between groups.
 ![Randomization](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/Randomization_Check.png)
-![Randomization](Randomization_Check1.png)
+![Randomization](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/Randomization_Check1.png)
 
 
 
