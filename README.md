@@ -2,7 +2,7 @@
 
 ### 1 Project Introduction
 #### 1.1 Overview A/B Testing
-A/B testing, also known as split testing, is a powerful method that allows organizations to compare two or more variations of a webpage, app feature, or campaign to determine which performs better. By systematically testing changes with real users, businesses can move beyond assumptions and intuition, by relying on empirical evidence to guide improvements. This not only reduces risk but also optimizes outcomes—boosting conversion rates, user engagement, and overall return on investment. /
+A/B testing, also known as split testing, is a powerful method that allows organizations to compare two or more variations of a webpage, app feature, or campaign to determine which performs better. By systematically testing changes with real users, businesses can move beyond assumptions and intuition, by relying on empirical evidence to guide improvements. This not only reduces risk but also optimizes outcomes—boosting conversion rates, user engagement, and overall return on investment. 
 
 This project analyzes a comprehensive A/B testing experiment conducted on an e-commerce platform to optimize the checkout process. The study examines the impact of design changes on conversion rates, revenue per user, and other metrics.
 
@@ -30,19 +30,6 @@ The current checkout process has four steps, team members want to streamline it 
 - Secondary: Revenue per user, time to checkout completion
 
 ### Sample Size Calculation
-```python
-import scipy.stats as stats
-import numpy as np
-from statsmodels.stats.power import ttest_power
-from statsmodels.stats.proportion import proportions_ztest
-
-
-
-# Calculate required sample size
-effect_size = minimum_detectable_effect / np.sqrt(baseline_conversion * (1 - baseline_conversion))
-sample_size_per_group = stats.norm.ppf(1 - alpha/2)**2 * 2 / effect_size**2
-print(f"Required sample size per group: {int(sample_size_per_group):,}")
-```
 
 **Sample Size**: 15,680 users per group (31,360 total)  
 **Test Duration**: 21 days  
