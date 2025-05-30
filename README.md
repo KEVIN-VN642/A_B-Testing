@@ -31,14 +31,13 @@ The current checkout process has four steps, team members want to streamline it 
 
 ### Sample Size Calculation
 
-**Sample Size**: 15,680 users per group (31,360 total)  
-**Test Duration**: 21 days  
+**Sample Size**: Required sample size is 3843 users per group. (Use sample size calculator tool or provided function)
+**Test Duration**: 16 days  (base on current traffic at 470 users/day)
 **Traffic Split**: 50/50 randomized assignment
 
 ### Randomization & Controls
 - **Stratified randomization** by device type (mobile/desktop) and user type (new/returning)
 - **Consistent user experience** - users remain in assigned group throughout test period
-- **Exclusion criteria**: Users with incomplete session data, bot traffic, employees
 
 ## Data Collection & Structure
 
