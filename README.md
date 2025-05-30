@@ -31,7 +31,7 @@ The current checkout process has four steps, team members want to streamline it 
 
 ### Sample Size Calculation
 
-- **Sample Size**: Required sample size is 3843 users per group. (Use sample size calculator tool or provided function)
+- **Sample Size**: Required sample size is 3843 users per group.
 - **Test Duration**: 16 days  (base on current traffic at 470 users/day)
 - **Traffic Split**: 50/50 randomized assignment
 
