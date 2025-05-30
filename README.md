@@ -9,20 +9,26 @@ A/B testing, also known as split testing, is a powerful method that allows organ
 The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue. The management want to make changes in this process to boost conversion rate, average order value, and user experience.
 
 
-## Experimental Design
-
+## 2 Experimental Design
+The current checkout process has four steps, team members want to streamline it to two steps only. Here is the setup for the experiment
+### Test Variants
+- **Control (A)**: Original 4-step checkout process
+- **Treatment (B)**: Use 2-step checkout process
+- 
 ### Hypothesis
 **H₀**: The new checkout design has no effect on conversion rate  
 **H₁**: The new checkout design increases conversion rate by at least 2%
 
-### Test Variants
-- **Control (A)**: Original 4-step checkout process
-- **Treatment (B)**: Streamlined 2-step checkout with progress indicators
-- 
+### Key parameters
+baseline_conversion = 0.124  # Current conversion rate
+minimum_detectable_effect = 0.02  # 2% absolute increase
+alpha = 0.05  # Significance level
+power = 0.80  # Statistical power
+
 ### **Success Metrics**:
 - Primary: Conversion rate (purchases/sessions)
 - Secondary: Revenue per user, time to checkout completion
-- Guardrail: User satisfaction score must not decrease
+
 ### Sample Size Calculation
 ```python
 import scipy.stats as stats
@@ -30,11 +36,7 @@ import numpy as np
 from statsmodels.stats.power import ttest_power
 from statsmodels.stats.proportion import proportions_ztest
 
-# Power analysis for sample size
-baseline_conversion = 0.124  # Current conversion rate
-minimum_detectable_effect = 0.02  # 2% absolute increase
-alpha = 0.05  # Significance level
-power = 0.80  # Statistical power
+
 
 # Calculate required sample size
 effect_size = minimum_detectable_effect / np.sqrt(baseline_conversion * (1 - baseline_conversion))
