@@ -1,12 +1,12 @@
 # A/B Testing Analysis for E-commerce Checkout Optimization
 
-### 1. Project Introduction
-#### 1.1 Overview A/B Testing
+## 1. Project Introduction
+### 1.1 Overview A/B Testing
 A/B testing, also known as split testing, is a powerful method that allows organizations to compare two or more variations of a webpage, app feature, or campaign to determine which performs better. By systematically testing changes with real users, businesses can move beyond assumptions and intuition, by relying on empirical evidence to guide improvements. This not only reduces risk but also optimizes outcomes—boosting conversion rates, user engagement, and overall return on investment. 
 
 This project analyzes a comprehensive A/B testing experiment conducted on an e-commerce platform to optimize the checkout process. The study examines the impact of design changes on conversion rates, revenue per user, and other metrics.
 
-#### 1.2 Business Problem
+### 1.2 Business Problem
 
 The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue. The management want to make changes in this process to boost conversion rate, average order value, and user experience.
 
@@ -39,17 +39,17 @@ The current checkout process has four steps, team members want to streamline it 
 - **Stratified randomization** by device type (mobile/desktop) and user type (new/returning)
 - **Consistent user experience** - users remain in assigned group throughout test period
 
-### 3. Data Quality Check
+## 3. Data Quality Check
 Before analyzing results, we must validate the experiment data for common issues which might mislead the result.
 - **Sample Ratio Mismatch (SRM) Check**: Data split betweeen control and treatment should not be much different from expected split.
 - **Sample size**: Make sure number of samples in each group exceeds the required sample size
 - **Data Completeness**: Checks for missing values, outliers, and data consistency.
 - **Randomization Check**: Verifies that user characteristics are balanced between groups.
 
-#### 3.1 Sample Size Check
+### 3.1 Sample Size Check
 This makes sure number of samples in each group exceeds the required number. There are 4957 users in control group and 5043 users in treatment group which is significant larger than required number, so the sample size requirement meets.
 
-#### 3.2  Sample Ratio Mismatch Check
+### 3.2  Sample Ratio Mismatch Check
 Ensures the traffic split is as expected (50/50) before doing analysis. SRM protects us from making business decisions based on flawed data. Deviations can come froms various sources:
 - Technical issues: randomization algorithm bugs, client-side tracking failures
 - Selection bias: geographic or temporal biases in assignment
@@ -62,7 +62,7 @@ The result show that the experiment data align well with design split ratio (50/
   * P-value: 0.389789 <br>
   * Result: ✅ PASS
 
-#### 3.3 Randomization Check
+### 3.3 Randomization Check
 We expect that user characteristics are balanced between groups. The bar plot shows the data is quite balanced in each category.
 ![Randomization](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/Randomization_Check.png)
 ![Randomization](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/Randomization_Check1.png)
