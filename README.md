@@ -42,11 +42,14 @@ The current checkout process has four steps, team members want to streamline it 
 ### 3. Data Quality Check
 Before analyzing results, we must validate the experiment data for common issues which might mislead the result.\
 - **Sample Ratio Mismatch (SRM) Check**: Data split betweeen control and treatment should not be much different from expected split.\
+- **Sample size**: Make sure number of samples in each group exceeds the required sample size
 - **Data Completeness**: Checks for missing values, outliers, and data consistency.\
 - **Randomization Check**: Verifies that user characteristics are balanced between groups.
 
+#### 3.1 Sample Size Check
+This makes sure number of samples in each group exceeds the required sample size. There are 4957 users in control group and 5043 users in treatment group which is significant larger than required number, so the sample size requirement meets.
 
-#### 3.1  Sample Ratio Mismatch Check
+#### 3.2  Sample Ratio Mismatch Check
 Ensures the traffic split is as expected (50/50) before doing analysis. SRM protects us from making business decisions based on flawed data. Deviations can come froms various sources:
 - Technical issues: randomization algorithm bugs, client-side tracking failures
 - Selection bias: geographic or temporal biases in assignment
@@ -59,29 +62,6 @@ The result show that the experiment data align well with design split ratio (50/
    P-value: 0.389789
    Result: ✅ PASS
 ## Statistical Analysis
-
-### 1. Primary Metric Analysis
-
-#### Conversion Rate Results
-```python
-# Conversion rate analysis
-control_conversions = 1,847
-control_sessions = 15,680
-treatment_conversions = 2,156  
-treatment_sessions = 15,680
-
-control_rate = control_conversions / control_sessions  # 11.77%
-treatment_rate = treatment_conversions / treatment_sessions  # 13.75%
-
-# Statistical significance test
-z_stat, p_value = proportions_ztest([treatment_conversions, control_conversions], 
-                                  [treatment_sessions, control_sessions])
-
-print(f"Control conversion rate: {control_rate:.3f}")
-print(f"Treatment conversion rate: {treatment_rate:.3f}")
-print(f"Relative lift: {(treatment_rate/control_rate - 1)*100:.1f}%")
-print(f"p-value: {p_value:.4f}")
-```
 
 **Results**:
 - **Control**: 11.77% conversion rate
