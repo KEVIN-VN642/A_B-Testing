@@ -1,9 +1,10 @@
-# E-commerce Checkout Optimization: A/B Testing Analysis
+## E-commerce Checkout Optimization: A/B Testing Analysis
 
-## Introduction
+### 1 Project Introduction
+#### 1.1 A/B Testing
 A/B testing, also known as split testing, is a powerful method that allows organizations to compare two or more variations of a webpage, app feature, or campaign to determine which performs better. By systematically testing changes with real users, businesses can move beyond assumptions and intuition, by relying on empirical evidence to guide improvements. This not only reduces risk but also optimizes outcomes—boosting conversion rates, user engagement, and overall return on investment. This project analyzes a comprehensive A/B testing experiment conducted on an e-commerce platform to optimize the checkout process. The study examines the impact of design changes on conversion rates, revenue per user, and other metrics.
 
-## Business Problem
+#### 1.2 Business Problem
 
 **Challenge**: The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue.
 
