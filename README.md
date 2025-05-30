@@ -1,4 +1,4 @@
-## E-commerce Checkout Optimization: A/B Testing Analysis
+# E-commerce Checkout Optimization: A/B Testing Analysis
 
 ### 1. Project Introduction
 #### 1.1 Overview A/B Testing
