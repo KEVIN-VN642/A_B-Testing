@@ -39,7 +39,7 @@ The current checkout process has four steps, team members want to streamline it 
 - **Stratified randomization** by device type (mobile/desktop) and user type (new/returning)
 - **Consistent user experience** - users remain in assigned group throughout test period
 
-### Data Quality Assurance
+### 3. Data Quality Check
 Before analyzing results, we must validate the experiment data for common issues which might mislead the result.\
 - **Sample Ratio Mismatch (SRM) Check**: Data split betweeen control and treatment should not be much different from expected split.\
 - **Data Completeness**: Checks for missing values, outliers, and data consistency.\
