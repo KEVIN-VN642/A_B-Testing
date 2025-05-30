@@ -67,6 +67,11 @@ We expect that user characteristics are balanced between groups. The bar plot sh
 ![Randomization](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/Randomization_Check.png)
 ![Randomization](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/Randomization_Check1.png)
 
+### 3.4 Boxplot and Data Distribution
+This visualize the order value to explore data distribution and potential outliers.
+[boxplot]()
+
+
 
 
 ## Statistical Analysis
