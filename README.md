@@ -69,7 +69,8 @@ We expect that user characteristics are balanced between groups. The bar plot sh
 
 ### 3.4 Boxplot and Data Distribution
 This visualize the order value to explore data distribution and potential outliers.
-[boxplot]()
+[boxplot](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/boxplot.png)
+[distribution](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/distribution.png)
 
 
 
