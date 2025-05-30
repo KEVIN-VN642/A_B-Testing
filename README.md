@@ -11,16 +11,14 @@ The current checkout process has a 38% abandonment rate, costing the company an 
 
 ## 2 Experimental Design
 The current checkout process has four steps, team members want to streamline it to two steps only. Here is the setup for the experiment
-### Test Variants
+### Test Variants:
 - **Control (A)**: Original 4-step checkout process
 - **Treatment (B)**: Use 2-step checkout process
-- 
-### Hypothesis
+### Hypothesis:
 **H₀**: The new checkout design has no effect on conversion rate  
 **H₁**: The new checkout design increases conversion rate by at least 2%
-
-### Key parameters
-baseline_conversion = 0.124  # Current conversion rate
+### Experiment parameters:
+baseline_conversion = 0.1  # Current conversion rate
 minimum_detectable_effect = 0.02  # 2% absolute increase
 alpha = 0.05  # Significance level
 power = 0.80  # Statistical power
