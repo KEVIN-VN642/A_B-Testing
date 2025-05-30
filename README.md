@@ -39,26 +39,6 @@ The current checkout process has four steps, team members want to streamline it 
 - **Stratified randomization** by device type (mobile/desktop) and user type (new/returning)
 - **Consistent user experience** - users remain in assigned group throughout test period
 
-## Data Collection & Structure
-
-### Key Metrics Tracked
-```python
-# Primary metrics
-conversion_rate = conversions / total_sessions
-revenue_per_user = total_revenue / total_users
-average_order_value = total_revenue / total_orders
-
-# Secondary metrics  
-time_to_checkout = checkout_completion_time - checkout_start_time
-bounce_rate = single_page_sessions / total_sessions
-cart_abandonment_rate = (carts_created - orders) / carts_created
-
-# Segmentation variables
-device_type = ['mobile', 'desktop', 'tablet']
-user_type = ['new_user', 'returning_user']
-traffic_source = ['organic', 'paid', 'direct', 'social']
-```
-
 ### Data Quality Assurance
 Before analyzing results, we must validate the experiment data for common issues which might mislead the result.\
 - **Sample Ratio Mismatch (SRM) Check**: Data split betweeen control and treatment should not be much different from expected split.\
