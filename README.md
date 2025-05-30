@@ -18,9 +18,9 @@ The current checkout process has four steps, team members want to streamline it 
 **H₀**: The new checkout design has no effect on conversion rate  
 **H₁**: The new checkout design increases conversion rate by at least 2%
 ### Experiment parameters:
-baseline_conversion = 0.1  # Current conversion rate
-minimum_detectable_effect = 0.02  # 2% absolute increase
-alpha = 0.05  # Significance level
+baseline_conversion = 0.1  # Current conversion rate \
+minimum_detectable_effect = 0.02  # 2% absolute increase \
+alpha = 0.05  # Significance level \
 power = 0.80  # Statistical power
 
 ### **Success Metrics**:
