@@ -1,6 +1,6 @@
 ## E-commerce Checkout Optimization: A/B Testing Analysis
 
-### 1 Project Introduction
+### 1. Project Introduction
 #### 1.1 Overview A/B Testing
 A/B testing, also known as split testing, is a powerful method that allows organizations to compare two or more variations of a webpage, app feature, or campaign to determine which performs better. By systematically testing changes with real users, businesses can move beyond assumptions and intuition, by relying on empirical evidence to guide improvements. This not only reduces risk but also optimizes outcomes—boosting conversion rates, user engagement, and overall return on investment. 
 
@@ -11,7 +11,7 @@ This project analyzes a comprehensive A/B testing experiment conducted on an e-c
 The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue. The management want to make changes in this process to boost conversion rate, average order value, and user experience.
 
 
-## 2 Experimental Design
+## 2. Experimental Design
 The current checkout process has four steps, team members want to streamline it to two steps only. Here is the setup for the experiment
 ### Test Variants:
 - **Control (A)**: Original 4-step checkout process
@@ -47,7 +47,7 @@ Before analyzing results, we must validate the experiment data for common issues
 - **Randomization Check**: Verifies that user characteristics are balanced between groups.
 
 #### 3.1 Sample Size Check
-This makes sure number of samples in each group exceeds the required sample size. There are 4957 users in control group and 5043 users in treatment group which is significant larger than required number, so the sample size requirement meets.
+This makes sure number of samples in each group exceeds the required number. There are 4957 users in control group and 5043 users in treatment group which is significant larger than required number, so the sample size requirement meets.
 
 #### 3.2  Sample Ratio Mismatch Check
 Ensures the traffic split is as expected (50/50) before doing analysis. SRM protects us from making business decisions based on flawed data. Deviations can come froms various sources:
