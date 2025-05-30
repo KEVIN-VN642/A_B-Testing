@@ -6,11 +6,7 @@ A/B testing, also known as split testing, is a powerful method that allows organ
 
 #### 1.2 Business Problem
 
-**Challenge**: The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue. The management want to improve this process to boost important metrics:
-  - Reduce checkout abandonment rate
-  - Increase overall conversion rate
-  - Improve average order value (AOV)
-  - Enhance user experience metrics
+The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue. The management want to make changes in this process to boost conversion rate, average order value, and user experience.
 
 
 ## Experimental Design
