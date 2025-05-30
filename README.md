@@ -60,9 +60,10 @@ traffic_source = ['organic', 'paid', 'direct', 'social']
 ```
 
 ### Data Quality Assurance
-- **Sample Ratio Mismatch (SRM) Check**: Verified 50/50 split maintained
-- **Outlier Detection**: Identified and handled extreme values (orders >$5,000)
-- **Data Validation**: Cross-referenced with payment processor data
+Before analyzing results, we must validate the experiment data for common issues which might mislead the result.\
+- **Sample Ratio Mismatch (SRM) Check**: Data split betweeen control and treatment should not be much different from expected split.\
+- **Data Completeness**: Checks for missing values, outliers, and data consistency.\
+- **Randomization Check**: Verifies that user characteristics are balanced between groups.
 
 ## Statistical Analysis
 
