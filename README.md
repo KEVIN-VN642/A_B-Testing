@@ -54,13 +54,13 @@ Ensures the traffic split is as expected (50/50) before doing analysis. SRM prot
 - Technical issues: randomization algorithm bugs, client-side tracking failures
 - Selection bias: geographic or temporal biases in assignment
 - Data collection problems: missing data from one variant, logging errors
-The result show that the experiment data align well with design split ratio (50/50)
-   Control: 4,957 (49.6%) <br>
-   Treatment: 5,043 (50.4%)<br>
-   Expected split: 50.0% / 50.0%<br>
-   Chi-square statistic: 0.7396<br>
-   P-value: 0.389789 <br>
-   Result: ✅ PASS
+The result show that the experiment data align well with design split ratio (50/50) <br>
+  * Control: 4,957 (49.6%) <br>
+  * Treatment: 5,043 (50.4%)<br>
+  * Expected split: 50.0% / 50.0%<br>
+  * Chi-square statistic: 0.7396<br>
+  * P-value: 0.389789 <br>
+  * Result: ✅ PASS
 ## Statistical Analysis
 
 **Results**:
