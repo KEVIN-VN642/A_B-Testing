@@ -40,10 +40,10 @@ The current checkout process has four steps, team members want to streamline it 
 - **Consistent user experience** - users remain in assigned group throughout test period
 
 ### 3. Data Quality Check
-Before analyzing results, we must validate the experiment data for common issues which might mislead the result.\
-- **Sample Ratio Mismatch (SRM) Check**: Data split betweeen control and treatment should not be much different from expected split.\
+Before analyzing results, we must validate the experiment data for common issues which might mislead the result.
+- **Sample Ratio Mismatch (SRM) Check**: Data split betweeen control and treatment should not be much different from expected split.
 - **Sample size**: Make sure number of samples in each group exceeds the required sample size
-- **Data Completeness**: Checks for missing values, outliers, and data consistency.\
+- **Data Completeness**: Checks for missing values, outliers, and data consistency.
 - **Randomization Check**: Verifies that user characteristics are balanced between groups.
 
 #### 3.1 Sample Size Check
