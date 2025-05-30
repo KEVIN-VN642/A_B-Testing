@@ -6,18 +6,12 @@ A/B testing, also known as split testing, is a powerful method that allows organ
 
 #### 1.2 Business Problem
 
-**Challenge**: The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue.
+**Challenge**: The current checkout process has a 38% abandonment rate, costing the company an estimated $1.3M annually lost in revenue. The management want to improve this process to boost important metrics:
+  - Reduce checkout abandonment rate
+  - Increase overall conversion rate
+  - Improve average order value (AOV)
+  - Enhance user experience metrics
 
-**Objective**: Test a redesigned checkout flow to:
-- Reduce checkout abandonment rate
-- Increase overall conversion rate
-- Improve average order value (AOV)
-- Enhance user experience metrics
-
-**Success Metrics**:
-- Primary: Conversion rate (purchases/sessions)
-- Secondary: Revenue per user, time to checkout completion
-- Guardrail: User satisfaction score must not decrease
 
 ## Experimental Design
 
@@ -28,7 +22,11 @@ A/B testing, also known as split testing, is a powerful method that allows organ
 ### Test Variants
 - **Control (A)**: Original 4-step checkout process
 - **Treatment (B)**: Streamlined 2-step checkout with progress indicators
-
+- 
+### **Success Metrics**:
+- Primary: Conversion rate (purchases/sessions)
+- Secondary: Revenue per user, time to checkout completion
+- Guardrail: User satisfaction score must not decrease
 ### Sample Size Calculation
 ```python
 import scipy.stats as stats
