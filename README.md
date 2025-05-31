@@ -142,10 +142,10 @@ FINAL RECOMMENDATIONS
 DECISION: 🚀 LAUNCH RECOMMENDED
 CONFIDENCE LEVEL: HIGH
 
-DECISION CRITERIA SCORECARD:
-   Statistical Significance  ✅ PASS     (p = 0.0000)
-   Practical Significance    ✅ PASS     (4.31% lift)
-   Business Impact           ✅ PASS     ($888,275)
+DECISION CRITERIA SCORECARD:<br>
+   Statistical Significance  ✅ PASS     (p = 0.0000)<br>
+   Practical Significance    ✅ PASS     (4.31% lift)<br>
+   Business Impact           ✅ PASS     ($888,275)<br>
 
    TOTAL SCORE: 3/3 criteria met
 ## Key Learnings & Next Steps
