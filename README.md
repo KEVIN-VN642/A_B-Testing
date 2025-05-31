@@ -72,9 +72,6 @@ This visualize the order value to explore data distribution and potential outlie
 ![boxplot](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/boxplot.png)
 ![distribution](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/distribution.png)
 
-
-
-
 ## 4. Statistical Analysis
 
 In this section we will perform statistical analyis on the primary metric **conversion rate** - the percentage of users who complete a purchase. Conversion rate is our key metric and the main outcome we're trying to improve. We also analyze other secondary metrics such as effect size, revenue per user. 
@@ -105,7 +102,7 @@ In this section we will perform statistical analyis on the primary metric **conv
    Treatment:                  $31.56 <br>
    Revenue lift:               44.79% <br>
 
-
+![metrics](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/key_metrics.png)
 
 ### 2. Segmentation Analysis
 
