@@ -106,7 +106,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 
 ## 5. Segmentation Analysis
 
-#### Segmentation Analysis: Device Type
+#### Device Type
 | Segment         | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
 |      Mobil      |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG    
@@ -114,13 +114,13 @@ In this section we will perform statistical analyis on the primary metric **conv
 |      Tablet     |    8.1%      |    11.3%       |  40.0%   | 0.224 |   ❌ NS
 
 
-#### Segmentation Analysis: User Type
+#### User Type
 |    Segment      | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
 | returning_user  |    11.0%     |    15.6%       |  41.9%   | 0.000 |   ✅ SIG    
 | new_User        |    9.3%      |    13.2%       |  42.4%   | 0.000 |   ✅ SIG
 
-#### Segmentation Analysis: Traffic Source
+#### Traffic Source
 |    Segment      | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
 |direct       | 10.2% | 14.3% | 40.3% | 0.006 | ✅ SIG
@@ -133,11 +133,9 @@ In this section we will perform statistical analyis on the primary metric **conv
 - **New users** benefit more than returning users
 Treatment is particularly effective for mobile-first customer segments
 
+![Segmentation](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/segmentation.png)
 
-
-
-
-### Recommendation
+## 6. Recommendation
 
 ## Key Learnings & Next Steps
 
