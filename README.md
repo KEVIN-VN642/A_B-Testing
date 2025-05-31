@@ -82,6 +82,13 @@ In this section we will perform statistical analyis on the primary metric **conv
 - **Effect size calculations**: Measures practical significance<br>
 ### Results: <br>
 
+|Statistical Test Results                 | Effect Size          | Statistical Significance    |  Revenue Per User |
+|-----------------------------------------|----------------------|-----------------------------|-------------------|
+|Control conversion rate:  10.309% <br>   | 
+ Treatment conversion rate: 14.614% <br>
+ 95% CI Control:  [9.462%, 11.155%] <br>
+ 95% CI Treatment: [13.639%, 15.589%]
+
 **Statistical Test Results:** <br>
    Control conversion rate:    10.309% <br>
    Treatment conversion rate:  14.614% <br>
