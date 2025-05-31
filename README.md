@@ -77,12 +77,14 @@ This visualize the order value to explore data distribution and potential outlie
 
 ## 4. Statistical Analysis
 
-In this section we will perform statistical analyis on the primary metric **conversion rate** - the percentage of users who complete a purchase. We also consider other secondary metrics such as effect size, revenue per user. Conversion rate is our key metric and the main outcome we're trying to improve.
+In this section we will perform statistical analyis on the primary metric **conversion rate** - the percentage of users who complete a purchase. Conversion rate is our key metric and the main outcome we're trying to improve. We also analyze other secondary metrics such as effect size, revenue per user. 
 
 ### The following statistical tests are applied:
 - **Two-proportion z-test**: Tests if conversion rates differ significantly
 - **Confidence intervals**: Provides range of plausible values for the true effect
 - **Effect size calculations**: Measures practical significance
+
+- 
 **Results**:
 - **Control**: 11.77% conversion rate
 - **Treatment**: 13.75% conversion rate  
@@ -136,90 +138,7 @@ abandonment_improvement = control_abandonment - treatment_abandonment
 print(f"Cart abandonment rate improvement: -{abandonment_improvement:.3f}")
 ```
 
-**UX Results**:
-- **Checkout time**: 30.3% reduction (284s → 198s)
-- **Cart abandonment**: 7.7 percentage point improvement
-- **User satisfaction**: No significant change (guardrail metric protected)
 
-### 4. Advanced Statistical Techniques
-
-#### Bayesian Analysis
-```python
-import pymc3 as pm
-import arviz as az
-
-# Bayesian A/B test analysis
-with pm.Model() as model:
-    # Priors
-    p_control = pm.Beta('p_control', alpha=1, beta=1)
-    p_treatment = pm.Beta('p_treatment', alpha=1, beta=1)
-    
-    # Likelihood
-    obs_control = pm.Binomial('obs_control', n=control_sessions, p=p_control, 
-                             observed=control_conversions)
-    obs_treatment = pm.Binomial('obs_treatment', n=treatment_sessions, p=p_treatment, 
-                               observed=treatment_conversions)
-    
-    # Derived quantities
-    lift = pm.Deterministic('lift', p_treatment - p_control)
-    relative_lift = pm.Deterministic('relative_lift', (p_treatment / p_control) - 1)
-    
-    # Sample from posterior
-    trace = pm.sample(5000, tune=1000, return_inferencedata=True)
-
-# Probability that treatment is better
-prob_treatment_better = (trace.posterior.lift > 0).sum() / len(trace.posterior.lift.values.flatten())
-print(f"Probability treatment > control: {prob_treatment_better:.3f}")
-```
-
-**Bayesian Results**:
-- **Probability treatment is better**: 99.7%
-- **Expected lift**: 1.94% (95% HDI: [1.21%, 2.67%])
-- **Risk of launching**: Very low
-
-#### Multiple Testing Correction
-```python
-from statsmodels.stats.multitest import multipletests
-
-# Multiple hypothesis testing correction
-p_values = [0.0003, 0.0089, 0.0421, 0.1847, 0.0156]  # Various metric p-values
-metric_names = ['Conversion Rate', 'Revenue per User', 'AOV', 'Bounce Rate', 'Time to Checkout']
-
-# Benjamini-Hochberg correction
-rejected, p_adjusted, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
-
-for i, (metric, p_orig, p_adj, significant) in enumerate(zip(metric_names, p_values, p_adjusted, rejected)):
-    print(f"{metric}: p={p_orig:.4f}, p_adj={p_adj:.4f}, Significant: {significant}")
-```
-
-## Business Impact & ROI
-
-### Financial Impact Projection
-```python
-# Annual revenue impact calculation
-monthly_sessions = 125000
-annual_sessions = monthly_sessions * 12
-
-# Revenue impact
-baseline_annual_revenue = annual_sessions * control_rate * 85.40  # avg order value
-treatment_annual_revenue = annual_sessions * treatment_rate * 85.40
-
-annual_revenue_lift = treatment_annual_revenue - baseline_annual_revenue
-print(f"Projected annual revenue lift: ${annual_revenue_lift:,.0f}")
-
-# Implementation costs
-development_cost = 45000
-ongoing_maintenance = 12000  # annual
-
-roi = (annual_revenue_lift - ongoing_maintenance) / development_cost
-print(f"First-year ROI: {roi:.1f}x")
-```
-
-**Financial Results**:
-- **Projected annual revenue lift**: $2,387,000
-- **Implementation cost**: $45,000
-- **First-year ROI**: 52.1x
-- **Payback period**: 0.7 months
 
 ### Recommendation
 
