@@ -84,20 +84,32 @@ In this section we will perform statistical analyis on the primary metric **conv
 - **Confidence intervals**: Provides range of plausible values for the true effect
 - **Effect size calculations**: Measures practical significance
 
-- 
+
 **Results**:
-- **Control**: 11.77% conversion rate
-- **Treatment**: 13.75% conversion rate  
-- **Absolute lift**: +1.98 percentage points
-- **Relative lift**: +16.8%
-- **Statistical significance**: p < 0.001 ✅
+🎯 PRIMARY METRIC: CONVERSION RATE
+==================================================
+
+📊 Statistical Test Results:
+   Control conversion rate:    10.309%
+   Treatment conversion rate:  14.614%
+   95% CI Control:             [9.462%, 11.155%]
+   95% CI Treatment:           [13.639%, 15.589%]
+
+🎯 Effect Size:
+   Absolute lift:              +4.306%
+   Relative lift:              +41.8%
+
+🧪 Statistical Significance:
+   Z-statistic:                6.5138
+   P-value:                    0.000000
+   Significant (α=0.05):       ✅ YES
+   Observed power:             100.0%
+💰 Revenue Per User:
+   Control:                    $21.79
+   Treatment:                  $31.56
+   Revenue lift:               44.79%
 
 
-**Revenue Results**:
-- **Control**: $47.23 revenue per user
-- **Treatment**: $52.91 revenue per user
-- **Absolute lift**: +$5.68 per user (+12.0%)
-- **95% CI**: [$4.12, $7.24]
 
 ### 2. Segmentation Analysis
 
