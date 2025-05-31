@@ -107,7 +107,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 ## 5. Segmentation Analysis
 
 #### Segmentation Analysis: Device Type
-| Segment  &nbsp  | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
+| ____Segment___  | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
 |      Mobil      |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG    
 |     Desktop     |    13.2%     |    18.0%       |  36.3%   | 0.000 |   ✅ SIG
