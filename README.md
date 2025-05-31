@@ -109,22 +109,13 @@ In this section we will perform statistical analyis on the primary metric **conv
 #### SEGMENTATION ANALYSIS: DEVICE_TYPE
 | Segment | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |---------|--------------|----------------|----------|-------|-------------|
-| Mobile  |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG   | 
+| Mobile  |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG    
 | Desktop |    13.2%     |    18.0%       |  36.3%   | 0.000 |   ✅ SIG
 | Tablet  |    8.1%      |    11.3%       |  40.0%   | 0.224 |   ❌ NS
 
-#### Performance by Device Type
-| Segment | Control Conv Rate | Treatment Conv Rate | Lift | Significance |
-|---------|-------------------|---------------------|------|--------------|
-| Mobile | 9.2% | 11.8% | +28.3% | p < 0.001 ✅ |
-| Desktop | 15.1% | 16.4% | +8.6% | p = 0.042 ✅ |
-| Tablet | 11.7% | 12.1% | +3.4% | p = 0.234 ❌ |
 
-#### Performance by User Type
-| Segment | Control Conv Rate | Treatment Conv Rate | Lift | Significance |
-|---------|-------------------|---------------------|------|--------------|
-| New Users | 8.4% | 10.9% | +29.8% | p < 0.001 ✅ |
-| Returning | 16.2% | 17.8% | +9.9% | p = 0.011 ✅ |
+
+
 
 **Key Insights**:
 - **Mobile users** show the largest improvement (+28.3% lift)
