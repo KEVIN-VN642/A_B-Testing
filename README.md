@@ -84,7 +84,9 @@ In this section we will perform statistical analyis on the primary metric **conv
 
 |Statistical Test Results                 | Effect Size          | Statistical Significance    |  Revenue Per User |
 |-----------------------------------------|----------------------|-----------------------------|-------------------|
-|Control conversion rate:  10.309% <br>   | 
+|Control conversion rate:  10.309% <br>   | Absolute lift:              +4.306% <br>
+   Relative lift:              +41.8% <br>
+   Absolute lift CI:           3.01% to 5.60%
  Treatment conversion rate: 14.614% <br>
  95% CI Control:  [9.462%, 11.155%] <br>
  95% CI Treatment: [13.639%, 15.589%]
