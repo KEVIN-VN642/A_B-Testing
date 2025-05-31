@@ -137,9 +137,6 @@ Treatment is particularly effective for mobile-first customer segments
 ![Segmentation](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/segmentation.png)
 
 ## 6. Recommendation
-
-FINAL RECOMMENDATIONS
-============================================================
 Decision Criteria Scorecard:<br>
    Statistical Significance  ✅ PASS     (p = 0.0000)<br>
    Practical Significance    ✅ PASS     (4.31% lift)<br>
