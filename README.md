@@ -131,7 +131,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 **Key Insights**:
 - **Mobile users** show the largest improvement (+28.3% lift)
 - **New users** benefit more than returning users
-- Treatment is particularly effective for mobile-first customer segments
+Treatment is particularly effective for mobile-first customer segments
 
 ### 3. Secondary Metrics Analysis
 
