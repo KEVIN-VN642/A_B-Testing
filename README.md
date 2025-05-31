@@ -113,6 +113,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 |      Mobil      |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG    
 |     Desktop     |    13.2%     |    18.0%       |  36.3%   | 0.000 |   ✅ SIG
 |      Tablet     |    8.1%      |    11.3%       |  40.0%   | 0.224 |   ❌ NS
+
 </p>
 
 #### User Type
