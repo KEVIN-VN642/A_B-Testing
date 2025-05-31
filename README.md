@@ -83,24 +83,24 @@ In this section we will perform statistical analyis on the primary metric **conv
 - **Two-proportion z-test**: Tests if conversion rates differ significantly
 - **Confidence intervals**: Provides range of plausible values for the true effect
 - **Effect size calculations**: Measures practical significance<br>
-**Results**: <br>
+### Results: <br>
 
-📊 Statistical Test Results: <br>
+**Statistical Test Results:** <br>
    Control conversion rate:    10.309% <br>
    Treatment conversion rate:  14.614% <br>
    95% CI Control:             [9.462%, 11.155%] <br>
    95% CI Treatment:           [13.639%, 15.589%] <br>
 
-🎯 Effect Size:<br>
+**Effect Size:** <br>
    Absolute lift:              +4.306% <br>
    Relative lift:              +41.8% <br>
 
-🧪 Statistical Significance: <br>
+**Statistical Significance:** <br>
    Z-statistic:                6.5138 <br>
    P-value:                    0.000000 <br>
    Significant (α=0.05):       ✅ YES <br>
    Observed power:             100.0% <br>
-💰 Revenue Per User:
+**Revenue Per User**: <br>
    Control:                    $21.79 <br>
    Treatment:                  $31.56 <br>
    Revenue lift:               44.79% <br>
