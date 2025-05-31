@@ -106,7 +106,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 ![metrics](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/key_metrics.png)
 
 ## 5. Segmentation Analysis
-<p align = "center">
+
 #### Device Type
 | Segment         | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
@@ -114,7 +114,6 @@ In this section we will perform statistical analyis on the primary metric **conv
 |     Desktop     |    13.2%     |    18.0%       |  36.3%   | 0.000 |   ✅ SIG
 |      Tablet     |    8.1%      |    11.3%       |  40.0%   | 0.224 |   ❌ NS
 
-</p>
 
 #### User Type
 |    Segment      | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
