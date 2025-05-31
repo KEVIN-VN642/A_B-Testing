@@ -145,9 +145,7 @@ Decision Criteria Scorecard:<br>
    Practical Significance    ✅ PASS     (4.31% lift)<br>
    Business Impact           ✅ PASS     ($888,275)<br>
 TOTAL SCORE: 3/3 criteria met
-
-DECISION: 🚀 LAUNCH RECOMMENDED
-CONFIDENCE LEVEL: HIGH
+Since all criteria pass the requirement, the practical significance is outside and smaller of confidence interval for absolute lift. We decide to launch the change with high level of confidence.
 ## Key Learnings & Next Steps
 
 ### Insights Gained
