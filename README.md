@@ -139,15 +139,14 @@ Treatment is particularly effective for mobile-first customer segments
 
 FINAL RECOMMENDATIONS
 ============================================================
-DECISION: 🚀 LAUNCH RECOMMENDED
-CONFIDENCE LEVEL: HIGH
-
-DECISION CRITERIA SCORECARD:<br>
+Decision Criteria Scorecard:<br>
    Statistical Significance  ✅ PASS     (p = 0.0000)<br>
    Practical Significance    ✅ PASS     (4.31% lift)<br>
    Business Impact           ✅ PASS     ($888,275)<br>
+TOTAL SCORE: 3/3 criteria met
 
-   TOTAL SCORE: 3/3 criteria met
+DECISION: 🚀 LAUNCH RECOMMENDED
+CONFIDENCE LEVEL: HIGH
 ## Key Learnings & Next Steps
 
 ### Insights Gained
