@@ -91,7 +91,8 @@ In this section we will perform statistical analyis on the primary metric **conv
 **Effect Size:** <br>
    Absolute lift:              +4.306% <br>
    Relative lift:              +41.8% <br>
-
+   Absolute lift CI:           3.01% to 5.60%
+   
 **Statistical Significance:** <br>
    Z-statistic:                6.5138 <br>
    P-value:                    0.000000 <br>
