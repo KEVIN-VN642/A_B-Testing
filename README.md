@@ -75,7 +75,7 @@ This visualize the order value to explore data distribution and potential outlie
 
 
 
-## Statistical Analysis
+## 4. Statistical Analysis
 
 **Results**:
 - **Control**: 11.77% conversion rate
@@ -84,27 +84,6 @@ This visualize the order value to explore data distribution and potential outlie
 - **Relative lift**: +16.8%
 - **Statistical significance**: p < 0.001 ✅
 
-#### Revenue Impact Analysis
-```python
-# Revenue per user analysis
-control_rpu = 47.23
-treatment_rpu = 52.91
-
-# Bootstrap confidence intervals
-def bootstrap_mean_diff(control_data, treatment_data, n_bootstrap=10000):
-    bootstrap_diffs = []
-    for _ in range(n_bootstrap):
-        control_sample = np.random.choice(control_data, size=len(control_data), replace=True)
-        treatment_sample = np.random.choice(treatment_data, size=len(treatment_data), replace=True)
-        diff = np.mean(treatment_sample) - np.mean(control_sample)
-        bootstrap_diffs.append(diff)
-    return np.array(bootstrap_diffs)
-
-# Calculate confidence interval for revenue lift
-revenue_diff_ci = np.percentile(bootstrap_diffs, [2.5, 97.5])
-print(f"Revenue per user lift: ${treatment_rpu - control_rpu:.2f}")
-print(f"95% CI: [${revenue_diff_ci[0]:.2f}, ${revenue_diff_ci[1]:.2f}]")
-```
 
 **Revenue Results**:
 - **Control**: $47.23 revenue per user
