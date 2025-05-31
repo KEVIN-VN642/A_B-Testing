@@ -123,10 +123,10 @@ In this section we will perform statistical analyis on the primary metric **conv
 #### Segmentation Analysis: Traffic Source
 |    Segment      | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
-|direct       | Control: 10.2% | Treatment: 14.3% | Lift: +40.3% | p=0.006 | ✅ SIG
-|organic      | Control: 10.7% | Treatment: 14.0% | Lift: +31.0% | p=0.001 | ✅ SIG
-|paid         | Control: 10.0% | Treatment: 15.6% | Lift: +55.1% | p=0.000 | ✅ SIG
-|social       | Control: 9.8% | Treatment: 14.7% | Lift: +49.5% | p=0.017 | ✅ SIG
+|direct       | 10.2% | 14.3% | 40.3% | 0.006 | ✅ SIG
+|organic      | 10.7% | 14.0% | 31.0% | 0.001 | ✅ SIG
+|paid         | 10.0% | 15.6% | 55.1% | 0.000 | ✅ SIG
+|social       | 9.8% | 14.7% | 49.5% | 0.017 | ✅ SIG
 
 **Key Insights**:
 - **Mobile users** show the largest improvement (+28.3% lift)
