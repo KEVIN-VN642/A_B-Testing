@@ -106,7 +106,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 
 ## 5. Segmentation Analysis
 
-#### SEGMENTATION ANALYSIS: DEVICE_TYPE
+#### Segmentation Analysis: Device Type
 | Segment | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |---------|--------------|----------------|----------|-------|-------------|
 | Mobile  |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG    
@@ -114,6 +114,11 @@ In this section we will perform statistical analyis on the primary metric **conv
 | Tablet  |    8.1%      |    11.3%       |  40.0%   | 0.224 |   ❌ NS
 
 
+#### Segmentation Analysis: User Type
+|    Segment      | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
+|-----------------|--------------|----------------|----------|-------|-------------|
+| returning_user  |    11.0%     |    15.6%       |  41.9%   | 0.000 |   ✅ SIG    
+| new_User        |    9.3%     |    13.2%       |  42.4%   | 0.000 |   ✅ SIG
 
 
 
