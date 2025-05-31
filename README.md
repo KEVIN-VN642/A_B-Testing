@@ -83,11 +83,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 - **Two-proportion z-test**: Tests if conversion rates differ significantly
 - **Confidence intervals**: Provides range of plausible values for the true effect
 - **Effect size calculations**: Measures practical significance
-
-
 **Results**:
-🎯 PRIMARY METRIC: CONVERSION RATE
-==================================================
 
 📊 Statistical Test Results:
    Control conversion rate:    10.309%
