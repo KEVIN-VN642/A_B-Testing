@@ -139,16 +139,8 @@ Treatment is particularly effective for mobile-first customer segments
 ## 6. Recommendation
 Decision Criteria Scorecard:<br>
    Statistical Significance  ✅ PASS     (p = 0.0000)<br>
-   Practical Significance    ✅ PASS     (4.31% lift)<br>
+   Practical Significance    ✅ PASS     (4.31% lift, confidence interval [3.01, 5.60])<br>
    Business Impact           ✅ PASS     ($888,275)<br>
 TOTAL SCORE: 3/3 criteria met
 Since all criteria pass the requirement, the practical significance is outside and smaller of confidence interval for absolute lift. We decide to launch the change with high level of confidence.
-## Key Learnings & Next Steps
 
-### Insights Gained
-1. **Mobile optimization** shows disproportionate impact on conversion
-2. **Simplified user flows** benefit new users significantly more
-3. **Progress indicators** reduce anxiety and abandonment rates
-4. **Checkout time reduction** correlates strongly with conversion improvement
-
-*This project demonstrates comprehensive A/B testing expertise with rigorous statistical methods and clear business impact measurement.*
