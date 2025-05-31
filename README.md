@@ -110,11 +110,8 @@ In this section we will perform statistical analyis on the primary metric **conv
 | Segment | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |---------|--------------|----------------|----------|-------|-------------|
 | Mobile  |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG   | 
-
-==================================================================================
-mobile       | Control: 8.8% | Treatment: 12.9% | Lift: +46.6% | p=0.000 | ✅ SIG
-desktop      | Control: 13.2% | Treatment: 18.0% | Lift: +36.3% | p=0.000 | ✅ SIG
-tablet       | Control: 8.1% | Treatment: 11.3% | Lift: +40.0% | p=0.224 | ❌ NS
+| Desktop |    13.2%     |    18.0%       |  36.3%   | 0.000 |   ✅ SIG
+| Tablet  |    8.1%      |    11.3%       |  40.0%   | 0.224 |   ❌ NS
 
 #### Performance by Device Type
 | Segment | Control Conv Rate | Treatment Conv Rate | Lift | Significance |
