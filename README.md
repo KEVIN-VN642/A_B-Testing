@@ -77,6 +77,12 @@ This visualize the order value to explore data distribution and potential outlie
 
 ## 4. Statistical Analysis
 
+In this section we will perform statistical analyis on the primary metric **conversion rate** - the percentage of users who complete a purchase. We also consider other secondary metrics such as effect size, revenue per user. Conversion rate is our key metric and the main outcome we're trying to improve.
+
+### The following statistical tests are applied:
+- **Two-proportion z-test**: Tests if conversion rates differ significantly
+- **Confidence intervals**: Provides range of plausible values for the true effect
+- **Effect size calculations**: Measures practical significance
 **Results**:
 - **Control**: 11.77% conversion rate
 - **Treatment**: 13.75% conversion rate  
