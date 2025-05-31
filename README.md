@@ -106,7 +106,7 @@ In this section we will perform statistical analyis on the primary metric **conv
 
 ## 5. Segmentation Analysis
 
-#### Segmentation Analysis: Device Type
+#### Device Type
 | Segment         | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
 |      Mobil      |    8.8%      |    13.2%       |  46.6%   | 0.000 |   ✅ SIG    
@@ -114,13 +114,13 @@ In this section we will perform statistical analyis on the primary metric **conv
 |      Tablet     |    8.1%      |    11.3%       |  40.0%   | 0.224 |   ❌ NS
 
 
-#### Segmentation Analysis: User Type
+#### User Type
 |    Segment      | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
 | returning_user  |    11.0%     |    15.6%       |  41.9%   | 0.000 |   ✅ SIG    
 | new_User        |    9.3%      |    13.2%       |  42.4%   | 0.000 |   ✅ SIG
 
-#### Segmentation Analysis: Traffic Source
+#### Traffic Source
 |    Segment      | Control Rate | Treatment Rate |   Lift   |   p   | Significant |
 |-----------------|--------------|----------------|----------|-------|-------------|
 |direct       | 10.2% | 14.3% | 40.3% | 0.006 | ✅ SIG
@@ -133,12 +133,20 @@ In this section we will perform statistical analyis on the primary metric **conv
 - **New users** benefit more than returning users
 Treatment is particularly effective for mobile-first customer segments
 
+![Segmentation](https://github.com/KEVIN-VN642/A_B-Testing/blob/main/images/segmentation.png)
 
+## 6. Recommendation
 
+FINAL RECOMMENDATIONS
+============================================================
+Decision Criteria Scorecard:<br>
+   Statistical Significance  ✅ PASS     (p = 0.0000)<br>
+   Practical Significance    ✅ PASS     (4.31% lift)<br>
+   Business Impact           ✅ PASS     ($888,275)<br>
+TOTAL SCORE: 3/3 criteria met
 
-
-### Recommendation
-
+DECISION: 🚀 LAUNCH RECOMMENDED
+CONFIDENCE LEVEL: HIGH
 ## Key Learnings & Next Steps
 
 ### Insights Gained
@@ -146,19 +154,5 @@ Treatment is particularly effective for mobile-first customer segments
 2. **Simplified user flows** benefit new users significantly more
 3. **Progress indicators** reduce anxiety and abandonment rates
 4. **Checkout time reduction** correlates strongly with conversion improvement
-
-### Future Experiments
-1. **Payment method optimization**: Test one-click payment options
-2. **Trust signals**: Add security badges and customer reviews
-3. **Personalization**: Dynamic checkout flow based on user behavior
-4. **Mobile-first design**: Further mobile experience improvements
-
-### Methodology Improvements
-1. Implement **sequential testing** for faster decision-making
-2. Add **long-term cohort analysis** to measure retention impact
-3. Develop **multi-armed bandit** approach for continuous optimization
-4. Create **simulation framework** for pre-experiment power analysis
-
----
 
 *This project demonstrates comprehensive A/B testing expertise with rigorous statistical methods and clear business impact measurement.*
