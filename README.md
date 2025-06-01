@@ -134,6 +134,6 @@ Since all criteria pass the requirement, the practical significance is outside a
 **Further Exploration**
 Further analysis might be conducted on:
 - The business impact and return on investment (implementation cost vs benefits).
-- It is worth to note any seasonal factors or special events might affect the result of the experiments.
+- Any seasonal factors or special events might affect the result of the experiments.
 - Other statistical methods such as Baysian, Bootstrap...
 
