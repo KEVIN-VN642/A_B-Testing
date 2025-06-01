@@ -131,3 +131,9 @@ Decision Criteria Scorecard:<br>
 TOTAL SCORE: 3/3 criteria met<br>
 Since all criteria pass the requirement, the practical significance is outside and smaller of confidence interval for absolute lift. We decide to launch the change with high level of confidence.
 
+**Further Exploration**
+Further analysis might be conducted on:
+- The business impact and return on investment (implementation cost vs benefits).
+- It is worth to note any seasonal factors or special events might affect the result of the experiments.
+- Other statistical methods such as Baysian, Bootstrap...
+
